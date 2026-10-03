@@ -8,7 +8,7 @@ version = "2.0.0"
 description = "OpenASI daily check-in with a Windows GUI and silent scheduled execution"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "LicenseRef-Proprietary"
+license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "OpenASI Checkin Contributors" }]
 dependencies = []

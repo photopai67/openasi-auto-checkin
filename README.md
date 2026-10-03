@@ -123,4 +123,4 @@ Remove-Item Env:OPENASI_TEST_TASKS
 
 ## 版权与许可
 
-本软件及其文档**保留所有权利（All rights reserved）**。除适用法律允许的情形外，未经著作权人事先书面许可，不授予使用、复制、修改、分发、再许可或销售的任何许可。详见 [LICENSE](LICENSE)。
+本软件及其文档采用 **MIT License**，详见 [LICENSE](LICENSE)。
