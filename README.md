@@ -1,0 +1,2 @@
+# openasi-auto-checkin
+一个适用于Windows的在openasi上自动每日签到的python脚本
