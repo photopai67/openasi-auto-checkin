@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openasi-checkin"
+version = "2.0.0"
+description = "OpenASI daily check-in with a Windows GUI and silent scheduled execution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE"]
+authors = [{ name = "OpenASI Checkin Contributors" }]
+dependencies = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Environment :: Win32 (MS Windows)",
+  "Intended Audience :: End Users/Desktop",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+openasi-checkin = "openasi_checkin.cli:main"
+
+[project.gui-scripts]
+openasi-checkin-gui = "openasi_checkin.gui:main"
+openasi-checkin-background = "openasi_checkin.worker:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

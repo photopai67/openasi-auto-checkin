@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+logs/
+.venv/
+build/
+dist/
+settings.json
+last_run.json
+*.log
+*.log.*
+openasi-checkin-v2.0.0-source.zip
