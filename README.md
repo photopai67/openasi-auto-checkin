@@ -1,6 +1,7 @@
 # OpenASI 自动签到
 
-注：OpenASI 是一个非商业性质的 AI API 开放平台，由吉大学生创业团队全资赞助维护，面向吉林大学师生提供限量的前沿模型。永久免费，永久不商业化。（网站原文，网址：https://app.openasi.bitmiracle.cn）
+注：OpenASI 是一个非商业性质的 AI API 开放平台，由吉大学生创业团队全资赞助维护，面向吉林大学师生提供限量的前沿模型。永久免费，永久不商业化。
+以上为网站原文，网址：https://app.openasi.bitmiracle.cn
 
 Windows 图形配置 + 每日静默签到，使用 Python 标准库，发布 Python 源码。
 
@@ -122,7 +123,7 @@ Remove-Item Env:OPENASI_TEST_TASKS
 - [Windows 计划任务主体](https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/new-scheduledtaskprincipal)
 
 项目为第三方工具，不绕过验证码或登录限制。
-
+由AI工具辅助完成。
 ## 版权与许可
 
 本软件及其文档采用 **MIT License**，详见 [LICENSE](LICENSE)。
